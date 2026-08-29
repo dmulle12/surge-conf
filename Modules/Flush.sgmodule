@@ -1,5 +1,5 @@
 #!name=Flush DNS
-#!desc=点击运行:清空 Surge DNS 缓存
+#!desc=Tap to run: clear Surge DNS cache
 #!system=ios
 
 [Script]

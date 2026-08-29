@@ -1,4 +1,4 @@
-# > 广告拦截列表
+# > Ad blocking list
 DOMAIN,ad.12306.com
 DOMAIN-SUFFIX,admaster.com.cn
 DOMAIN-SUFFIX,admob.com

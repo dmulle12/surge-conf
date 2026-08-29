@@ -1,6 +1,6 @@
 /**
- * Flush DNS 缓存
- * 配合 Modules/Flush.sgmodule 使用(type=generic,需手动触发)
+ * Flush DNS cache
+ * Used with Modules/Flush.sgmodule (type=generic, manual trigger)
  */
 (async () => {
   const result = await httpAPI('POST', '/v1/dns/flush');

@@ -1,25 +1,25 @@
 /**
- * Network Info 面板脚本
- * 配合 Modules/Panel.sgmodule 使用
- * 显示 Wi-Fi SSID、本机 IP 与出口位置
+ * Network info panel script
+ * Used with Modules/Panel.sgmodule
+ * Displays Wi-Fi SSID, local IP, and egress location
  */
 (async () => {
   const wifi = $network.wifi;
   const v4 = $network.v4;
-  let content = `SSID: ${wifi?.ssid || '未连接'}\n本机: ${v4?.primaryAddress || '-'}\n出口: 获取中...`;
+  let content = `SSID: ${wifi?.ssid || 'Disconnected'}\nLocal: ${v4?.primaryAddress || '-'}\nEgress: Loading...`;
   const panel = {
-    title: '网络信息',
+    title: 'Network Info',
     content,
     icon: 'wifi',
     'icon-color': '#5AC8FA',
   };
   try {
-    const geo = await httpGet('http://ip-api.com/json/?fields=status,message,country,city,isp,query&lang=zh-CN');
+    const geo = await httpGet('http://ip-api.com/json/?fields=status,message,country,city,isp,query&lang=en');
     if (geo.status === 'success') {
-      panel.content = `SSID: ${wifi?.ssid || '未连接'}\n本机: ${v4?.primaryAddress || '-'}\n出口: ${geo.query}\n${geo.country} ${geo.city || ''}`;
+      panel.content = `SSID: ${wifi?.ssid || 'Disconnected'}\nLocal: ${v4?.primaryAddress || '-'}\nEgress: ${geo.query}\n${geo.country} ${geo.city || ''}`;
     }
   } catch (e) {
-    panel.content = `SSID: ${wifi?.ssid || '未连接'}\n本机: ${v4?.primaryAddress || '-'}\n出口: 查询失败`;
+    panel.content = `SSID: ${wifi?.ssid || 'Disconnected'}\nLocal: ${v4?.primaryAddress || '-'}\nEgress: Query failed`;
   }
   $done(panel);
 })();
