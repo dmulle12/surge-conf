@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,tiktok.com
@@ -32,8 +31,6 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,medium.com
