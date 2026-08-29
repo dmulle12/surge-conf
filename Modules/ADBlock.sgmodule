@@ -1,12 +1,12 @@
-#!name=ADBlock 广告拦截
-#!desc=常见应用开屏/信息流广告拦截(重写规则)
+#!name=ADBlock
+#!desc=Common app splash/feed ad blocking (rewrite rules)
 #!system=ios
 
 [Rule]
 AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 
 [URL Rewrite]
-# > 示例:屏蔽部分开屏广告接口(按需增删)
+# > Example: block some splash ad APIs (add/remove as needed)
 ^https?:\/\/[\w-]+\.example\.com\/api\/splash - reject
 ^https?:\/\/ad\.example\.cn\/.* - reject
 

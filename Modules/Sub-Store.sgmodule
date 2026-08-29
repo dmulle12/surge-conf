@@ -1,5 +1,5 @@
-#!name=Sub-Store 订阅管理
-#!desc=Sub-Store 订阅转换与管理面板(需自行部署或信任脚本)
+#!name=Sub-Store Subscription Manager
+#!desc=Sub-Store subscription conversion and management panel (self-host or trust remote script)
 #!system=ios
 #!author=sub-store-org
 #!homepage=https://github.com/sub-store-org/Sub-Store

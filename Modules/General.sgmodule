@@ -1,11 +1,11 @@
-#!name=General 通用设置
-#!desc=通用增强:跳过代理修正、IPv6 关闭、TCP 连接优化
+#!name=General Settings
+#!desc=General enhancements: skip-proxy fixes, IPv6 disabled, TCP connection optimization
 #!system=ios
 
 [General]
 force-http-engine-hosts = %APPEND% example.com
 skip-proxy = %APPEND% 100.64.0.0/10
-# 如需强制走代理的域名,取消注释并修改
+# Uncomment and modify if domains must always use proxy
 # always-real-ip = %APPEND% example.com
 
 [Header Rewrite]

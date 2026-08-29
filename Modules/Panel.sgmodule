@@ -1,5 +1,5 @@
 #!name=Network Info Panel
-#!desc=仪表盘面板:显示 Wi-Fi、本机 IP 与出口信息
+#!desc=Dashboard panel: shows Wi-Fi, local IP, and egress info
 #!system=ios
 
 [Panel]
