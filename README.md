@@ -17,7 +17,8 @@ This repository maintains the main Surge 5 (iOS/macOS) configuration, remote mod
 │   ├── Direct.list         #   Direct connection
 │   ├── Proxy.list          #   Proxy
 │   ├── Reject.list         #   Ad blocking
-│   └── Apple.list          #   Apple services
+│   ├── Apple.list          #   Apple services
+│   └── Lan.list            #   LAN/private network
 └── Scripts/                # JS scripts
     ├── network-info.js     #   Panel script
     └── flush-dns.js        #   DNS flush
