@@ -1,4 +1,0 @@
-# Malaysia rule list for Surge5 iOS
-# This file directs all traffic to Malaysia IPs or domains to DIRECT
-GEOIP,MY,DIRECT
-# Add specific domain rules below if needed
