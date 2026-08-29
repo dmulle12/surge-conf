@@ -1,0 +1,9 @@
+#!name=Network Info Panel
+#!desc=仪表盘面板:显示 Wi-Fi、本机 IP 与出口信息
+#!system=ios
+
+[Panel]
+network-info = script-name=network-info, update-interval=3600
+
+[Script]
+network-info = type=generic, script-path=https://raw.githubusercontent.com/gleichners/surge-conf/main/Scripts/network-info.js

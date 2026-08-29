@@ -1,0 +1,6 @@
+#!name=Flush DNS
+#!desc=点击运行:清空 Surge DNS 缓存
+#!system=ios
+
+[Script]
+dns-flush = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/gleichners/surge-conf/main/Scripts/flush-dns.js
