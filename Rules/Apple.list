@@ -1,15 +1,32 @@
-# > Apple services
-DOMAIN,apple.com
-DOMAIN-SUFFIX,apple.com
+# Surge 5 Rule-Set: Apple Overseas / Global
+# Updated: 2026
+
+# --- App Store & TestFlight ---
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,testflight.apple.com
+
+# --- iCloud & Cloud Services ---
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+
+# --- Core Apple Infrastructure & CDN ---
 DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-support.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-USER-AGENT,com.apple.appstored*
-USER-AGENT,AppStore*
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
-USER-AGENT,com.apple.trustd*
+
+# --- Apple Media Services ---
+DOMAIN-SUFFIX,apple.news
+DOMAIN-KEYWORD,apple-support
+
+# --- IP Ranges (Apple ASN 714) ---
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR6,2a01:b280::/32,no-resolve
