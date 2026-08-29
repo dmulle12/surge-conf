@@ -1,0 +1,15 @@
+# > Apple 服务
+DOMAIN,apple.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+USER-AGENT,com.apple.appstored*
+USER-AGENT,AppStore*
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
