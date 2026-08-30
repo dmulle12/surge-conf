@@ -38,7 +38,15 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,openai
