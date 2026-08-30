@@ -44,14 +44,13 @@ hide-udp = false
 
 [Rule]
 AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
-# > Remote rule sets: maintained in this repository under Rules/
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Lan.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Reject.list,REJECT
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Study,🎯Proxy
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Apple.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Direct.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/gleichners/surge-conf/main/Rules/Proxy.list,🎯Proxy
-
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Lan.list,DIRECT
+DOMAIN-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Adblock-Pro.txt,REJECT
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Study.list,🎯Proxy
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Douyin.list,🎯Proxy,extended-matching
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Apple.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Proxy.list,🎯Proxy
+RULE-SET,https://raw.githubusercontent.com/dmulle12/surge-conf/main/Rules/Direct.list,DIRECT
 # > Fallback rules
 GEOIP,CN,🇨🇳CN Return
 FINAL,DIRECT,dns-failed
