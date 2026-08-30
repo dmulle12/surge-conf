@@ -31,7 +31,7 @@ This repository maintains the main Surge 5 (iOS/macOS) configuration, remote mod
 In Surge, go to Configuration → Configuration File → Download from URL, then enter the URL below (replace `gleichners` with your GitHub username):
 
 ```
-https://raw.githubusercontent.com/gleichners/surge-conf/main/Surge.conf
+https://raw.githubusercontent.com/dmulle12/surge-conf/main/Surge.conf
 ```
 
 ### 2. Install Modules
@@ -39,7 +39,7 @@ https://raw.githubusercontent.com/gleichners/surge-conf/main/Surge.conf
 In Surge, go to Module → Install from URL. For example, ad blocking:
 
 ```
-https://raw.githubusercontent.com/gleichners/surge-conf/main/Modules/ADBlock.sgmodule
+https://raw.githubusercontent.com/dmulle12/surge-conf/main/Modules/ADBlock.sgmodule
 ```
 
 ### 3. Policy Groups
