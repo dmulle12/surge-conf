@@ -1,0 +1,6 @@
+#!name=Flush DNS
+#!desc=Tap to run: clear Surge DNS cache
+#!system=ios
+
+[Script]
+dns-flush = type=generic, timeout=10, script-path=https://raw.githubusercontent.com/gleichners/surge-conf/main/Scripts/flush-dns.js

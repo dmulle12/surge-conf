@@ -1,0 +1,14 @@
+#!name=ADBlock
+#!desc=Common app splash/feed ad blocking (rewrite rules)
+#!system=ios
+
+[Rule]
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
+
+[URL Rewrite]
+# > Example: block some splash ad APIs (add/remove as needed)
+^https?:\/\/[\w-]+\.example\.com\/api\/splash - reject
+^https?:\/\/ad\.example\.cn\/.* - reject
+
+[MITM]
+hostname = %APPEND% *.example.com, ad.example.cn

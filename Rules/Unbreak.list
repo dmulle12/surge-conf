@@ -1,0 +1,93 @@
+# Surge 5 — Unbreak.list
+# # IMPORTANT : For Overseas Users / Return-to-China Scenario
+
+
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,bdtj.tagtic.cn
+
+# > Alibaba
+
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+DOMAIN,log.aliyuncs.com
+
+# > Tencent
+
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+DOMAIN,video.dispatch.tc.qq.com
+
+# > Baidu
+
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+
+ > Umeng
+
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,ulogs.umeng.com
+
+# > Google
+
+DOMAIN-SUFFIX,blog.google
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,update.googleapis.com
+DOMAIN,translate.googleapis.com
+
+# > Google Ads / Services
+
+Keep disabled unless required by the application.
+
+DOMAIN,pubads.g.doubleclick.net
+
+# > Microsoft
+
+DOMAIN,settings-win.data.microsoft.com
+DOMAIN,v10.events.data.microsoft.com
+DOMAIN,v20.events.data.microsoft.com
+
+# > Apple
+
+Narrow exceptions only; do not whitelist *.apple.com.
+
+DOMAIN,captive.apple.com
+
+# > Strava
+
+DOMAIN,analytics.strava.com
+
+# > Sentry
+
+DOMAIN,sentry.io
+DOMAIN,ingest.sentry.io
+
+# > Firebase
+
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,firebaselogging.googleapis.com
+
+# > Crash / Analytics
+
+DOMAIN,app-measurement.com
+DOMAIN,crashlytics.com
+DOMAIN,api2.amplitude.com
+
+# > Cloudflare Turnstile / Challenge
+
+DOMAIN,challenges.cloudflare.com
+
+# > Connectivity
+
+DOMAIN,detectportal.firefox.com
+DOMAIN,connectivitycheck.android.com
+
+# > Paramount+
+
+DOMAIN,pubads.g.doubleclick.net

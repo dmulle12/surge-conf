@@ -1,0 +1,15 @@
+#!name=General Settings
+#!desc=General enhancements: skip-proxy fixes, IPv6 disabled, TCP connection optimization
+#!system=ios
+
+[General]
+force-http-engine-hosts = %APPEND% example.com
+skip-proxy = %APPEND% 100.64.0.0/10
+# Uncomment and modify if domains must always use proxy
+# always-real-ip = %APPEND% example.com
+
+[Header Rewrite]
+
+[Script]
+
+[MITM]
