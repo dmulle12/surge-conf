@@ -1,0 +1,19 @@
+# TikTok Remote Split Rules
+# 用于在 Surge 中单独把 tiktok 相关请求分流到自定义节点
+
+# 主域名
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.org
+DOMAIN-SUFFIX,sharelive.miaozhen.com
+
+# 视频与直播 CDN
+DOMAIN-SUFFIX,tdxcdn.com
+DOMAIN-SUFFIX,tvideo.cn
+DOMAIN-SUFFIX,ssvip.com
+DOMAIN-SUFFIX,ctrip.com
+
+# 统计与分析
+DOMAIN-SUFFIX,fwcdn.com
+DOMAIN-SUFFIX,analytics.tiktokcdn.com
