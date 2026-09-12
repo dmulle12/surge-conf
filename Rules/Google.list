@@ -1,0 +1,31 @@
+# Google 相关域名规则
+# 该列表包含 Google 及其子服务的主域名，便于在 Surge 中单独分流或拦截
+# 此文件可直接放入 Rules 目录，并在 Surge.conf 的 [Rule] 区域引用
+
+# 主域名
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,ggpht.com
+
+# 服务域名
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+
+# 广告与分析
+DOMAIN-SUFFIX,ad.doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,googlesyndication.com
+
+# 其它常见 Google 域
+DOMAIN-SUFFIX,mail.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,calendar.google.com
+DJAX? Wait. implemented.
